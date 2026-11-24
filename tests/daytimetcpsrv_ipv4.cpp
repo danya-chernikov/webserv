@@ -34,7 +34,7 @@
 const int			MAXLINE			= 4096;
 const int			LISTENQ			= 1024;
 const u_short		DAYTIME_PORT	= 13;
-const std::string	LOG_FILE_PATH	= "/var/log/daytimetcpsrc_ipv4/report.log";
+const std::string	LOG_FILE_PATH	= "/var/log/daytimetcpsrv_ipv4/report.log";
 // Write permission for the log file must be granted
 
 void handle_error(std::ofstream &log, const std::string &culprit);
